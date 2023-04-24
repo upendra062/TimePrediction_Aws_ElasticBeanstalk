@@ -1,0 +1,11 @@
+numpy 
+pandas 
+Flask
+scikit-learn
+flask-cors
+seaborn
+urllib3==1.25.10
+requests
+bs4
+ipykernel
+-e .
