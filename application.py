@@ -4,8 +4,6 @@ from src.components.data_injestion import DataIngestion
 from src.components.data_transformation import DataTransformation
 from src.components.model_trainer import ModelTrainer
 import pandas as pd
-
-from src.reviewscrapper.reviews import Review_data
 from urllib.request import urlopen as uReq
 from flask_cors import CORS,cross_origin
 from bs4 import BeautifulSoup as bs
@@ -133,5 +131,5 @@ def reviews():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0',
-            port=5001, 
+            port=5000, 
             debug=True)

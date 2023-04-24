@@ -208,25 +208,60 @@ global:
 ```
 Create Application
 ```
+## Application Name
+```
+timepredictionsecond
+```
+## python version
+```
+python 3.8
+```
+## Go To CodePipeline 
+```
+Create Pipeline
+```
+## Pipeline Name
+```
+timepredicitonpipeline
+```
+## source provider 
+```
+Using Github version2 or Github version1
+```
+## Connect to git hub 
+```
+select your repository
+```
+## build provider   Build - optional
+```
+you can skip it
+```
+## deploy provider
+```
+AWS Elastic Beanstalk
+```
+## Fill all details
+```
+region 
+application name
+environment name
 ```
 ```
+Your Work is Done 
+If you have followed
+Properly Your application 
+Will Deploy
 ```
+
+
+# Steps 
 ```
-```
-```
-```
-```
-```
-```
-```
-```
-```
-```
-```
-```
-```
-```
-```
+1. Your Project (Code)
+2. Github (Push Repository With Required Changes Mentioned Above)
+3. Aws
+4. CodePipeline
+5. Elastic Beanstalk
+
 ```
 
 
