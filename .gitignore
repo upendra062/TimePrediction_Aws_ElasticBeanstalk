@@ -2,7 +2,6 @@ venv
 TimePredictionProjectProject.egg-info
 build
 dist 
-artifacts
 notebook 
 .env
 logs

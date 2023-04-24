@@ -179,6 +179,8 @@ application.py
 ```
 application = Flask(__name__)
 ```
+
+## .elasticbeanstalk is optional for CI-CD pipeline
 ```
 mkdir .elasticbeanstalk
 ```
@@ -193,7 +195,7 @@ global:
   application_name: reviewflask
   branch: main
   default_ec2_keyname: null
-  default_platform: Python 3.7
+  default_platform: Python 3.8
   default_region: us-east-1
   include_git_submodules: true
   instance_profile: null
