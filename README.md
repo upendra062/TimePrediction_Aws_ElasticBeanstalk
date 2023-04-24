@@ -259,8 +259,8 @@ Will Deploy
 1. Your Project (Code)
 2. Github (Push Repository With Required Changes Mentioned Above)
 3. Aws
-4. CodePipeline
-5. Elastic Beanstalk
+4. CodePipeline  (S3 bucket)
+5. Elastic Beanstalk (EC2 instance)
 
 ```
 
